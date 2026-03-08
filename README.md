@@ -61,34 +61,19 @@ Ingrese el valor que desea convertir:
 
 El valor 100 USD corresponde al valor final de 386500 COP
 
-Requisitos
+## Requisitos
 Java 17 o superior
 Conexion a Internet
 IDE o terminal para ejecutar Java
 Clave de acceso si la API utilizada la requiere
 
-Configuracion
+## Configuracion
 Si tu proyecto usa una API con clave, puedes manejarla con variables de entorno para no exponerla en el codigo.
 
 Ejemplo:
 API_KEY=${API_KEY}
 
-Abre el proyecto en IntelliJ IDEA o tu editor preferido.
-Configura la clave de la API si aplica.
-Ejecuta la clase principal.
-Selecciona una opcion del menu y realiza la conversion.
-
-Estructura general
-text
-src
- └── main
-     └── java
-         ├── principal
-         ├── modelos
-         ├── servicios
-         └── utilidades
-
-Aprendizajes
+## Aprendizajes
 Este proyecto permitio practicar:
 Solicitudes HTTP en Java
 Consumo de APIs REST
@@ -96,5 +81,5 @@ Conversion de respuestas JSON a objetos Java
 Uso de menus interactivos en consola
 Separacion de responsabilidades en clases
 
-Autor
+## Autor
 Proyecto desarrollado como parte del programa de formacion de Alura Latam.
